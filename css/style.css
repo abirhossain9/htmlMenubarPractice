@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+background-color: rgb(27, 25, 25);
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 10%;
+    float: left;    
+}
+
+.menu{
+    width: 80%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float:left ;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+.menu ul li:last-child a{
+    padding-right: 0px;
+
+}
+
